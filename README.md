@@ -3,6 +3,7 @@
 > 汇集国内所有主要大模型 AI 人才计划与招聘信息，涵盖互联网大厂、AI 独角兽、硬件厂商等 30+ 个人才计划
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7c183af7-a74b-4712-98fe-69d362c6481f/deploy-status)](https://app.netlify.com/projects/dashing-biscotti-53b190/deploys)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-orange.svg)](https://pages.cloudflare.com)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.2.0-61dafb.svg)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6.svg)](https://www.typescriptlang.org)
@@ -185,11 +186,26 @@ npm run preview
 3. 自动检测 Vite 项目配置
 4. 点击部署
 
+### Cloudflare Pages 部署
+
+1. 将代码推送到 GitHub
+2. 在 [Cloudflare Dashboard](https://dash.cloudflare.com) 中进入 **"Workers & Pages"**
+3. 点击 **"Create"** → **"Pages"** → **"Connect to Git"**
+4. 选择仓库 `zeng-yirong/LLMplan`
+5. 配置构建参数：
+   - Build command: `npm run build`
+   - Build output directory: `dist`
+6. 点击 **"Save and Deploy"**
+
+项目已包含 Cloudflare Pages 配置文件：
+- `wrangler.toml` - Cloudflare 项目配置
+- `public/_headers` - 自定义 HTTP 头
+- `public/_redirects` - SPA 路由重定向
+
 ### 其他平台
 
 项目支持部署到任何静态网站托管服务：
 - GitHub Pages
-- Cloudflare Pages
 - 阿里云 OSS
 - 腾讯云 COS
 
