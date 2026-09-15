@@ -11,7 +11,9 @@
 
 ## 🌐 在线访问
 
-**官方网站**: https://dashing-biscotti-53b190.netlify.app
+**官方网站**: 
+- Netlify: https://dashing-biscotti-53b190.netlify.app
+- Cloudflare Pages: https://llmplan.pages.dev/
 
 ## 📖 项目介绍
 
@@ -286,6 +288,6 @@ npm run preview
 
 **如果这个项目对你有帮助，请给一个 ⭐️ Star 支持！**
 
-[访问网站](https://dashing-biscotti-53b190.netlify.app) | [报告问题](https://github.com/zeng-yirong/LLMplan/issues) | [贡献代码](https://github.com/zeng-yirong/LLMplan/pulls)
+[Netlify 访问](https://dashing-biscotti-53b190.netlify.app) | [Cloudflare 访问](https://llmplan.pages.dev/) | [报告问题](https://github.com/zeng-yirong/LLMplan/issues) | [贡献代码](https://github.com/zeng-yirong/LLMplan/pulls)
 
 </div>
