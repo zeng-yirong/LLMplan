@@ -2,7 +2,7 @@
 
 > 汇集国内所有主要大模型 AI 人才计划与招聘信息，涵盖互联网大厂、AI 独角兽、硬件厂商等 30+ 个人才计划
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://dashing-biscotti-53b190.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c183af7-a74b-4712-98fe-69d362c6481f/deploy-status)](https://app.netlify.com/projects/dashing-biscotti-53b190/deploys)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.2.0-61dafb.svg)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6.svg)](https://www.typescriptlang.org)
@@ -137,8 +137,8 @@
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/你的用户名/仓库名.git
-cd 仓库名
+git clone https://github.com/zeng-yirong/LLMplan.git
+cd LLMplan
 ```
 
 2. **安装依赖**
@@ -267,6 +267,6 @@ npm run preview
 
 **如果这个项目对你有帮助，请给一个 ⭐️ Star 支持！**
 
-[访问网站](https://dashing-biscotti-53b190.netlify.app) | [报告问题](https://github.com/你的用户名/仓库名/issues) | [贡献代码](https://github.com/你的用户名/仓库名/pulls)
+[访问网站](https://dashing-biscotti-53b190.netlify.app) | [报告问题](https://github.com/zeng-yirong/LLMplan/issues) | [贡献代码](https://github.com/zeng-yirong/LLMplan/pulls)
 
 </div>
