@@ -190,17 +190,20 @@ npm run preview
 
 1. 将代码推送到 GitHub
 2. 在 [Cloudflare Dashboard](https://dash.cloudflare.com) 中进入 **"Workers & Pages"**
-3. 点击 **"Create"** → **"Pages"** → **"Connect to Git"**
+3. 点击 **"Create application"** → **"Pages"** → **"Connect to Git"**
 4. 选择仓库 `zeng-yirong/LLMplan`
 5. 配置构建参数：
-   - Build command: `npm run build`
-   - Build output directory: `dist`
+   - **Framework preset**: `Vite`（或选择 `None`）
+   - **Build command**: `npm run build`
+   - **Build output directory**: `dist`
+   - **Node.js version**: `18` 或更高
 6. 点击 **"Save and Deploy"**
 
-项目已包含 Cloudflare Pages 配置文件：
-- `wrangler.toml` - Cloudflare 项目配置
-- `public/_headers` - 自定义 HTTP 头
+项目已包含 Cloudflare Pages 支持文件：
+- `public/_headers` - 自定义 HTTP 安全头
 - `public/_redirects` - SPA 路由重定向
+
+**注意**：Cloudflare Pages 通过 Dashboard 配置，不需要 `wrangler.toml` 文件。
 
 ### 其他平台
 
